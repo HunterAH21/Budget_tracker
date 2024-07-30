@@ -1,0 +1,68 @@
+
+body {
+    font-family: Arial, sans-serif;
+}
+.container {
+    width: 50%;
+    margin: auto;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 5px;
+}
+.title {
+    text-align: center;
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    border-radius: 5px 5px 0 0;
+}
+.form {
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 0 0 5px 5px;
+    margin-bottom: 20px;
+}
+.form-group {
+    margin-bottom: 10px;
+}
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+.form-group input, .form-group select {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+.form-group button {
+    width: 100%;
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.form-group button:hover {
+    background-color: darkblue;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+table, th, td {
+    border: 1px solid #ddd;
+}
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+th {
+    background-color: blue;
+    color: white;
+}
+.delete-button {
+    color: red;
+    cursor: pointer;
+}
